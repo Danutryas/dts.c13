@@ -1,0 +1,135 @@
+@media(max-width:1200px) {
+    .lesson {
+        width: 30%;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .two {
+        position: relative;
+        left: 145px;
+        margin-top: 15px;
+
+    }
+    .lesson-member h1 {
+        font-size: 18px;
+    }
+    .lesson-member p {
+        font-size: 14px;
+    }
+}
+
+/* Untuk Tablet */
+
+@media(max-width:1000px) {
+    .top-wrapper {
+        padding-top: 50px;
+    }
+    .extra1 h1 {
+        font-size: 68px;
+        padding-bottom: 10px;
+
+    }
+    .extra1 p {
+        font-size: 32px;
+        padding-bottom: 5px;
+    }
+    /* extra2 */
+
+    .lesson {
+        width: 45%;
+        position: relative;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .two {
+        left: 0;
+        margin-top: 15px;
+    }
+    /* footer */
+    .footer-social-icons ul li:hover a {
+        color: #ffffff;
+    }
+    .footer-social-icons ul li:nth-child(1):hover {
+        background: #3b5999;
+    }
+    .footer-social-icons ul li:nth-child(2):hover {
+        background: #55acee;
+    }
+    .footer-social-icons ul li:nth-child(3):hover {
+        background: #f72828;
+    }
+    .footer-social-icons ul li:nth-child(4):hover {
+        background: #d81919;
+    }
+    .footer-social-icons ul li:nth-child(5):hover {
+        background: #0077b5;
+    }
+}
+
+
+/* Untuk Hp */
+
+@media all and (max-width:670px) {
+    /* header */
+    .navmenu {
+        display: none;
+    }
+    .icon {
+        display: block;
+        margin-right: 10px;
+    }
+   
+    /* extra1 */
+    .extra1 h1 {
+        font-size: 38px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+   .extra1 p {
+       font-size: 18px;
+      
+   }
+   .selected {
+       position: relative;
+       top: 50px;
+   }
+   .selected:active {
+       top: 51px;
+   }
+
+   /* extra2 */
+   .lesson {
+       width: 100%;
+   }
+   hr {
+       width: 100%;
+   }
+   .submit {
+       width: 70px;
+       font-size: 8px;
+       padding: 5px;
+   }
+    /* footer */
+}
+
+@media(max-width:200px) {
+    .lesson-member img {
+        height: 100px;
+    }
+
+
+}
+@media(max-width:155px) {
+    .navmmenu {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .extra1 h1 {
+        padding-bottom: 30px;
+    }
+    .selected {
+        top: 20px;
+    }
+}
